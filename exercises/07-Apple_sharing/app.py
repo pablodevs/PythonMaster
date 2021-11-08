@@ -4,9 +4,10 @@
 #Hint: You can resolve this exercise either importing the math module or without it 
 def apple_sharing(n,k):
   
-  return None
+  return k//n, k-(n*(k//n))
+
  
     
 
 #Print the two answer per the example output.
-print(apple_sharing())
+print(apple_sharing(6,50))

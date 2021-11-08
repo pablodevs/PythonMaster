@@ -1,0 +1,1 @@
+print(','.join([x for x in input().strip().split(',') if int(x)%2!=0]))
